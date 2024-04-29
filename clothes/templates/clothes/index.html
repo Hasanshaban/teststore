@@ -1,0 +1,34 @@
+{% extends 'clothes/base.html' %}
+{% load static %}
+{% block title %}   فروشگاه   {% endblock %}
+
+  {% block comment %}
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner ">
+      <div class="container " style="direction: ltr;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caption" style="direction: rtl;">
+              <h2  >فروشگاه ارزانکده</h2>
+              <div class="line-dec"></div>
+              <p>در این فروشگاه شما می توانید تمام تولیدات را بدون واسطه با قیمت مناسب خریداری کنید 
+              <br><br>پس به بخش <a rel="nofollow" href="{% url 'clothes_listview' %}">فروشگاه</a> وارد شوید  تمام اجناس بدون واسطه عرضه شده است </p>
+              <div class="main-button">
+                <a href="{% url 'clothes_listview' %}">فروشگاه</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+    
+    
+    {% endblock %}
+   
+
+
+  
+
+
